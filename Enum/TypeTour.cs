@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeSpettacle.Models_Enum
+namespace LeSpettacle.Enum
 {
     [Flags]
     public enum TypeTour

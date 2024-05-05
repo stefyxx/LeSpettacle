@@ -14,12 +14,12 @@ namespace LeSpettacle.Models_Enum
         public Singe(int name, Tour tour)
         {
             this.Name = name;
-            AddTours(tour);          
+            AddTours(tour);
         }
         public Singe(int name, List<Tour> tours)
         {
             this.Name = name;
-            this.Tours = tours;    
+            this.Tours = tours;
         }
         public void AddTours(Tour tour)
         {
